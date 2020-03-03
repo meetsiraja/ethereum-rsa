@@ -1,7 +1,7 @@
 {
   "name": "ethereum-rsa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Encrypt and Decrypt message using Ethereum keys.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
