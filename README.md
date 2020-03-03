@@ -1,4 +1,5 @@
 ## ethereum-rsa
+![npm](https://img.shields.io/npm/v/ethereum-rsa) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
 Encrypt and Decrypt message using **Ethereum keys**. 
 
