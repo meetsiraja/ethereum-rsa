@@ -13,6 +13,8 @@ const { compressHex, addPrefix0x } = require('./utils')
  */
 async function encryptMessage(plaintext, privateKey, publicKey) {
 
+    privateKey = addPrefix0x(privateKey);
+
     const algorithm = 'aes-256-cbc';
     
     const secret = await getSharedSecret(privateKey, publicKey);
