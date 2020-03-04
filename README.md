@@ -95,3 +95,15 @@ EthRSA.decryptMessage(
 ```
 Hey There!
 ```
+
+## Contributing
+
+- Issues & Pull requests are welcome! Fork, branch, and submit PR.
+
+## Changelog
+
+- [Changelog](https://github.com/meetsiraja/ethereum-rsa/blob/master/CHANGELOG.md)
+
+## Licence
+
+[MIT](https://github.com/meetsiraja/ethereum-rsa/blob/master/LICENCE.md)
