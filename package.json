@@ -1,6 +1,6 @@
 {
   "name": "ethereum-rsa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Encrypt and Decrypt message using Ethereum keys.",
   "main": "index.js",
   "scripts": {
