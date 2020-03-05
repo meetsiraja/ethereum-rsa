@@ -95,6 +95,11 @@ EthRSA.decryptMessage(
 ```
 Hey There!
 ```
+## Running tests:
+
+```
+npm test
+```
 
 ## Contributing
 
