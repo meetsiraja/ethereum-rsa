@@ -15,14 +15,14 @@ async function decrypt(cipherText, recipientPrivateKey, senderPublicKey){
 
 async function test(){
 
-    let recipientPublicKey = EthRSA.publicKeyByPrivateKey(CONFIG.RECEIPIENT_PRIVATEKEY);
+    let recipientPublicKey = EthRSA.publicKeyByPrivateKey(CONFIG.RECIPIENT_PRIVATEKEY);
 
     let cipherText = await encrypt("Hey There!", CONFIG.SENDER_PRIVATEKEY, recipientPublicKey);
     console.log(`Encrypted Message: ${cipherText}`);
 
     let senderPublicKey = EthRSA.publicKeyByPrivateKey(CONFIG.SENDER_PRIVATEKEY);
 
-    let decryptedMessage = await decrypt(cipherText, CONFIG.RECEIPIENT_PRIVATEKEY, senderPublicKey);
+    let decryptedMessage = await decrypt(cipherText, CONFIG.RECIPIENT_PRIVATEKEY, senderPublicKey);
     console.log(`Decrypted Message: ${decryptedMessage}`);
 
     return;
