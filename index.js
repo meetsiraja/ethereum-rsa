@@ -1,6 +1,6 @@
-const publicKeyByPrivateKey = require('./publicKeyByPrivateKey');
-const encryptMessage = require('./encryptMessage');
-const decryptMessage = require('./decryptMessage');
+const publicKeyByPrivateKey = require('./src/publicKeyByPrivateKey');
+const encryptMessage = require('./src/encryptMessage');
+const decryptMessage = require('./src/decryptMessage');
 
 module.exports = {
     publicKeyByPrivateKey,
